@@ -14,9 +14,19 @@ namespace Examples
 
         public string LastName { get; set; }
 
-        public DateTime Birthdate { get; set; }  
+        public DateTime Birthdate { get; set; }
 
-        private int LuckyNumber {get; set;}
+        private int LuckyNumber;
+
+        public int GetLuckyNumber()
+        {
+            return LuckyNumber;
+        }
+
+        public void SetLuckyNumber(int number)
+        {
+            LuckyNumber = number;
+        }
 
         public Student()
         {
