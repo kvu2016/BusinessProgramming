@@ -14,7 +14,7 @@ namespace Examples
 
         public string LastName { get; set; }
 
-        public DateTime Birthdate { get; set; }
+        public DateTime Birthdate { get; set; }  
 
         private int LuckyNumber {get; set;}
 
